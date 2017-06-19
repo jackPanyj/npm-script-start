@@ -1,0 +1,14 @@
+@mixin absolute($t, $r, $b, $l) {
+  top: $t;
+  right: $r;
+  bottom: $b;
+  left: $l;
+}
+
+// 单位转换
+// @param {int} $px - 设计图上的 px 大小
+// @returns {rem} - 转换后的 rem 值
+// 设计稿是iphone6的尺寸
+@function r($px) {
+  @return $px / 18.75 + rem;
+}
