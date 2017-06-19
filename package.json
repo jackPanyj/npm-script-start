@@ -1,14 +1,9 @@
 {
-  "name": "npm-build-boilerplate",
+  "name": "npm-script-start",
   "version": "1.2.0",
   "description": "A set of common build tasks written with npm scripts.",
-  "author": "Damon Bauer <hello@damonbauer.me>",
+  "author": "jackpanyj <https://github.com/jackpanyj>",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/damonbauer/npm-build-boilerplate"
-  },
-  "bugs": "https://github.com/damonbauer/npm-build-boilerplate/issues",
   "keywords": [
     "npm",
     "scripts",
@@ -52,3 +47,4 @@
     "uglify-es": "^3.0.18"
   }
 }
+
